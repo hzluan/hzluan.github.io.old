@@ -108,21 +108,22 @@ transition: 0.5s
     overflow:hidden;
     margin-top: 5px;
     margin-bottom: 10px;
+    transition: all 0.5s;
   }
 
   .polaroid_photo img{
     height:auto;
     width: 100%;
-    transition: 0.5s
+    transition: all 0.5s;
   }
 
 .polaroid_photo:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
     transition: 0.5s;
 }
 
   .polaroid_photo:hover img{
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 
   .polaroid_photo{
@@ -181,4 +182,21 @@ transition: 0.5s
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a img{
+  transition: all 0.5s;
+}
+
+a:hover img{
+  transform: scale(1.1);
 }
